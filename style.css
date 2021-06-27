@@ -150,17 +150,16 @@
         margin-bottom: var(--mb-4);
     }
     
-    .fa_fa-sss {
-        margin: 40px;
-    }
-    
     .nav__link {
         position: relative;
-        color: #fff;
+        color: rgb(209, 27, 27);
     }
     
     .nav__link:hover {
         position: relative;
+        color: rgb(194, 69, 38);
+        display: block;
+        font: bold;
     }
     
     .nav__link:hover::after {
@@ -174,7 +173,12 @@
     }
     
     .nav__logo {
-        color: var(--second-color);
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        background-image: url("tropical-foliage-background_53876-91352.jpg");
+        background-size: auto;
+        background-attachment: fixed;
     }
     
     .nav__toggle {
@@ -312,6 +316,10 @@
         align-items: center;
     }
     
+    .skills_data:hover {
+        color: gray;
+    }
+    
     .skills__bar {
         position: absolute;
         left: 0;
@@ -342,6 +350,14 @@
         border-radius: .5rem;
     }
     
+    .fa_fa-sss {
+        margin: 40px;
+    }
+    
+    .fa_fa-sss:hover {
+        position: relative;
+    }
+    
     .contact__input {
         width: 100%;
         font-size: var(--normal-font-size);
@@ -354,10 +370,10 @@
     }
     
     .contact__button {
-        display: block;
+        display: inline-block;
         border: none;
         outline: none;
-        font-size: var(--normal-font-size);
+        margin-left: auto;
         cursor: pointer;
         margin-left: auto;
     }
